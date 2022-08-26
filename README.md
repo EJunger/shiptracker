@@ -1,7 +1,7 @@
 # Shiptracker
 by: Emma Junger
 
-    shiptracker <FILE>
+    shiptracker <FILE> <OPTIONAL:FILE>
 
 Parses .txt & .csv records and generates a report detailing the total shipment times, layover times, and longest step taken.
 
@@ -9,7 +9,7 @@ Build Instructions:
 
     $ cargo build
 
-    $ cargo run <FILE> || $ ./target/debug/shiptracker <FILE>
+    $ cargo run <FILE> <OPTIONAL:FILE> || $ ./target/debug/shiptracker <FILE> <OPTIONAL:FILE>
 
 
 Project Structure Summary:
